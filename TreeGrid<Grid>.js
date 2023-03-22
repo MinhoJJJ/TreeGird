@@ -24,7 +24,17 @@ treegird의 <grid>태그의  <cfg>태그 안의
 			ClearSelected="2"    Alternate="2" 
 	/> 
 
-
+ <cfg>태그 안의 
+			AcceptEnters   = "1" Calculated = "1"  CalculateSelected = "1"      DateStrings = "2" Deleting  = "0"
+			Dragging       = "1" Editing    = "1"  EnterMode         = "4"      Filtering   = "1" IdChars   = "0123456789"
+			InEditMode     = "1" MaxPages   = "20" NoFormatEscape    = "1"      NoHScroll   = "0" NoVScroll = "0"
+			NumberId       = "1" SafeCSS    = '1'  Selecting 		 = "0"
+			SelectingCells = "0" SortIcons  = "0"  Style             = "Standard" SuppressCfg = "1" 
+			Paging		   = "2" AllPages   = "0"  PageLength		 = "30"		MaxPages    = "20"
+			CopySelected   = "0" CopyFocused= "1"  CopyCols			 = "0"	
+			ExportFormat="xlsx"    ExportCols="0" ExportType="TextType"	
+			ClearSelected="2"    Alternate="2" 
+	/>
 treegrid의 <grid> 태그 안의 <cfg> 태그는 해당 그리드의 전반적인 설정을 정의하는 역할을 합니다. 이 중, <cfg> 태그의 속성은 다음과 같습니다.
 
 AcceptEnters: 엔터 키 입력을 허용할지 여부를 지정합니다. 1은 허용한다는 의미이며, 0은 허용하지 않는다는 의미입니다.
