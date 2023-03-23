@@ -17,4 +17,4 @@ TreeGrid에서 row.kind 속성은 주로 사용자가 커스텀한 셀 스타일
 sgexpanded 상태인 행은 다른 상태와 구분하기 위해 다른 색상을 지정할 수 있습니다. 또한,
 sgleaf 상태인 행은 아이콘을 변경하여 노드인지 아닌지를 시각적으로 나타낼 수 있습니다.
 
-oneDBIclick
+var colIndex=myGrid.ColNames[1].indexOf("SELECT_YN");   // 트리그리드 열의 인덱스만 가져옴 객체는 아님
