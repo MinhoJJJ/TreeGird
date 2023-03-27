@@ -8,6 +8,14 @@ Grids.OnValueChanged = function(grid,row, col, old_value, new_value){
 		}
 }
 
+
+Grids.OnAfterSave = function(grid,source){
+	Grids.List.ReloadBody();
+}; 
+// "Grids.OnAfterSave" 이벤트는 그리드에서 셀 값이 변경된 후에 발생하는 이벤트입니다. 따라서 //
+// 이 코드는 그리드의 셀 값이 저장되고 나면 "Grids.List" 그리드의 본문을 다시로드하도록 지시합니다. 
+// 이렇게하면 저장된 변경 사항이 그리드에 즉시 표시됩니다.
+
 row.kind  // 현재 렌더링 되는 행의 종류
 
 sgexpanded: 상위 노드가 펼쳐져서 하위 노드를 보여주는 상태인 행
