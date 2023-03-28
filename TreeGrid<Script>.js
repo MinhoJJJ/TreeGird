@@ -34,5 +34,8 @@ Grids.OnClick = function(grid, row, col){}
 Grids.OnDataReceive = function(grid,source){
 	grid.SetAttribute(row, "열 이름", "열의 타입", "이미지 주소",1);	
 }
+// cfg의 selecting 옵션이 1일 경우  체크된 모든 행의 체크를 풀음
+Grids["minho"].SelectAllRows();
+
 
 var colIndex=myGrid.ColNames[1].indexOf("SELECT_YN");   // 트리그리드 열의 인덱스만 가져옴 객체는 아님
