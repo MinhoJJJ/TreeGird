@@ -24,19 +24,8 @@ treegird의 <grid>태그의  <cfg>태그 안의
 			CopySelected   = "0" CopyFocused= "1"  CopyCols			 = "0"	
 			ExportFormat="xlsx"    ExportCols="0" ExportType="TextType"	
 			ClearSelected="2"    Alternate="2" 
+			MainCol="MINO_GIT"
 	/> 
-
- <cfg>태그 안의 
-			AcceptEnters   = "1" Calculated = "1"  CalculateSelected = "1"      DateStrings = "2" Deleting  = "0"
-			Dragging       = "1" Editing    = "1"  EnterMode         = "4"      Filtering   = "1" IdChars   = "0123456789"
-			InEditMode     = "1" MaxPages   = "20" NoFormatEscape    = "1"      NoHScroll   = "0" NoVScroll = "0"
-			NumberId       = "1" SafeCSS    = '1'  Selecting 		 = "0"
-			SelectingCells = "0" SortIcons  = "0"  Style             = "Standard" SuppressCfg = "1" 
-			Paging		   = "2" AllPages   = "0"  PageLength		 = "30"		MaxPages    = "20"
-			CopySelected   = "0" CopyFocused= "1"  CopyCols			 = "0"	
-			ExportFormat="xlsx"    ExportCols="0" ExportType="TextType"	
-			ClearSelected="2"    Alternate="2" 
-	/>
 treegrid의 <grid> 태그 안의 <cfg> 태그는 해당 그리드의 전반적인 설정을 정의하는 역할을 합니다. 이 중, <cfg> 태그의 속성은 다음과 같습니다.
 
 AcceptEnters: 엔터 키 입력을 허용할지 여부를 지정합니다. 1은 허용한다는 의미이며, 0은 허용하지 않는다는 의미입니다.
@@ -53,3 +42,4 @@ InEditMode: 편집 모드에서 다른 셀로 이동할 때 새로운 행을 만
 MaxPages: 페이지 수 제한을 지정합니다. 페이지 수가 이 값보다 크면 더 이상 페이지를 나누지 않습니다.
 NoFormatEscape: HTML 형식 문자를 이스케이프(Escape)하지 않을지 여부를 지정합니다.
 NoHScroll: 가로 스크롤바를 표시할지 여부를 지정합니다. 1은 표시하지 않는다는 의미이며, 0
+MainCol: "MINO_GIT"를 기준으로 하위행이 있을 경우 밑으로 열고 닫을 수 있는 화살표 박스를 생성해준다. 이때 화살표 박스는  <I>태그와 CanExpand='1' Expanded='1'>로 상위, 하위를 구분할 수있습니다.
