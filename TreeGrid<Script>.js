@@ -1,3 +1,8 @@
+//그리드 객체 불러올때 방식들
+Grids.Minho.GetSelRows()
+Grids["Minho"].GetSelRows()
+
+
 //체크박스 체크시
 Grids.OnValueChanged = function(grid,row, col, old_value, new_value){
 	var number;                                                      // 번호를 담아줄 변수 
