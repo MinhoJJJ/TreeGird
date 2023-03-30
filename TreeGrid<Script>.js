@@ -1,6 +1,6 @@
 //그리드 객체 불러올때 방식들
-Grids.Minho.GetSelRows()
-Grids["Minho"].GetSelRows()
+Grids.Minho.GetSelRows()  // 직접 참조하는 방식
+Grids["Minho"].GetSelRows() // 문자열로 불러오는 방식
 
 
 //체크박스 체크시
