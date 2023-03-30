@@ -35,7 +35,11 @@ Grids.OnDataReceive = function(grid,source){
 	grid.SetAttribute(row, "열 이름", "열의 타입", "이미지 주소",1);	
 }
 // cfg의 selecting 옵션이 1일 경우  체크된 모든 행의 체크를 풀음
-Grids["minho"].SelectAllRows();
+Grids["Minho"].SelectAllRows();
+
+//그리드의 col속성에 값을 주입
+Grids.Minho.SetValue(row, "SELECT_YN", "1", 0);
+
 
 
 var colIndex=myGrid.ColNames[1].indexOf("SELECT_YN");   // 트리그리드 열의 인덱스만 가져옴 객체는 아님
