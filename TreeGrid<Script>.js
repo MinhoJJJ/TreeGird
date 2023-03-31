@@ -50,6 +50,10 @@ Grids.Minho.SelectAllRows(1); // 해당 그리드의 모든 행을 선택한다.
 Grids.Minho.SelectAllRows(0); // 해당 그리드의 모든 행을 취소한다.
 
 
+//모달에 다른거 채우기
+$("#MINHOModal").load(url + encodeURI(param), function(){}
+
+
 
 
 var colIndex=myGrid.ColNames[1].indexOf("SELECT_YN");   // 트리그리드 열의 인덱스만 가져옴 객체는 아님
