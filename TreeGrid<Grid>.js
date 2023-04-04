@@ -12,7 +12,7 @@ Align: 해당 열의 텍스트 정렬 방향을 지정합니다. "left", "right"
 CanExport: 해당 열의 데이터가 내보내기(Export) 가능한지 여부를 지정합니다. 1은 내보내기 가능하다는 의미이며, 0은 내보내기 불가능하다는 의미입니다.
 CanFilter: 해당 열의 데이터가 필터링(Filtering) 가능한지 여부를 지정합니다. 1은 필터링 가능하다는 의미이며, 0은 필터링 불가능하다는 의미입니다.
 "CanExpand='1'"은 해당 행이 하위 항목을 가질 수 있는지 여부를 나타내는 속성입니다. "CanExpand"가 "1"인 경우 해당 행에 하위 항목이 표시될 수 있습니다.
-"Expanded='1'"은 해당 행의 하위 항목이 현재 펼쳐져 있는지 여부를 나타내는 속성입니다. "Expanded"가 "1"인 경우 해당 행의 하위 항목이 펼쳐져 있습니다.
+"Expanded='1'"은 해당 행의 하위 항목이 현재 펼쳐져 있는지 여부를 나타내는 속성입니다. "Expanded"가 "1"인 경우 해당 행의 하위 항목이 펼쳐져 있습니다..
 
 treegird의 <grid>태그의  <cfg>태그 안의 
 			AcceptEnters   = "1" Calculated = "1"  CalculateSelected = "1"      DateStrings = "2" Deleting  = "0"
