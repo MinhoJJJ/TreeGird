@@ -62,6 +62,6 @@ grid.SetAttribute(row, "MINHO", "Icon", "/images/com/web/downloadFile.png",1)
 
 var colIndex=myGrid.ColNames[1].indexOf("SELECT_YN");   // 트리그리드 열의 인덱스만 가져옴 객체는 아님
 
-// 그리드 
+// 그리드 초기화
 Grids.Active = null;   
 Grids.Focused = null;		
