@@ -64,4 +64,11 @@ var colIndex=myGrid.ColNames[1].indexOf("SELECT_YN");   // 트리그리드 열�
 
 // 그리드 초기화
 Grids.Active = null;   
-Grids.Focused = null;		
+Grids.Focused = null;
+
+// 그리드의 데이터 가져오는 것 스크립트단에서 처리
+Grids.MINHO.Source.Data.Url = url + encodeURI(param);   //Grid.Source.Upload.Url 이건 업로드 데이터 처리 (저장 버튼 등)
+Grids.MINHO.ReloadBody();   // 가져오고나서 새로고침
+
+
+
