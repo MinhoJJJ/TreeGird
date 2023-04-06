@@ -61,3 +61,7 @@ grid.SetAttribute(row, "MINHO", "Icon", "/images/com/web/downloadFile.png",1)
 // row의 minho라는 속성을 가진 곳에 아이콘을 넣고 이미지는 3번째 인자로 함 네번째 인자는 아이콘 사진의 위치를 말함 1은 row의 왼쪽 2는 오른쪽 
 
 var colIndex=myGrid.ColNames[1].indexOf("SELECT_YN");   // 트리그리드 열의 인덱스만 가져옴 객체는 아님
+
+// 그리드 
+Grids.Active = null;   
+Grids.Focused = null;		
