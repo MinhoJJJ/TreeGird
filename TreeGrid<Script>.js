@@ -70,5 +70,5 @@ Grids.Focused = null;
 Grids.MINHO.Source.Data.Url = url + encodeURI(param);   //Grid.Source.Upload.Url 이건 업로드 데이터 처리 (저장 버튼 등)
 Grids.MINHO.ReloadBody();   // 가져오고나서 새로고침
 
-
+Grids.OnDataReceive = function(grid,source){} // 트리그리드가 실행될때 트리그리드의 값을 변경가능하게끔 해줌
 
