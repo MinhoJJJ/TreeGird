@@ -42,8 +42,9 @@ Grids.OnDataReceive = function(grid,source){
 // cfg의 selecting 옵션이 1일 경우  체크된 모든 행의 체크를 풀음
 Grids["Minho"].SelectAllRows();
 
-//그리드의 col속성에 값을 주입
+//그리드의 col속성에 값을 주입   // canEdit = 1일때 먹힘
 Grids.Minho.SetValue(row, "SELECT_YN", "1", 0);
+Grids[Minho].SetValue(row, "SELECT_YN", "1", 0); 도 있음
 
 // 그드내의 cfg 의 Selecting = 1 일 경우
 Grids.Minho.SelectAllRows(1); // 해당 그리드의 모든 행을 선택한다.
