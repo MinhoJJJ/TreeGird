@@ -51,6 +51,10 @@ Grids.Minho.SelectAllRows(1); // 해당 그리드의 모든 행을 선택한다.
 Grids.Minho.SelectAllRows(0); // 해당 그리드의 모든 행을 취소한다.
 
 
+//row의 다음 값을 준다.
+Grids[Minho].GetNextVisible(row)
+
+
 //모달에 다른거 채우기
 $("#MINHOModal").load(url + encodeURI(param), function(){}
 
