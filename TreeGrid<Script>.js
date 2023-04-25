@@ -61,8 +61,13 @@ $("#MINHOModal").load(url + encodeURI(param), function(){}
 //그리드 반복문
 for(var row=grid.GetFirst(null); row; row=grid.GetNext(row)) {}/ 그리드가 없을때까지 반복
 
-//그리드 특정 row 값 변경
+//그리드 특정 row 값 변경 (속성)
 grid.SetAttribute(row, "MINHO", "Icon", "/images/com/web/downloadFile.png",1) 
+grid.SetAttribute(row,"CD","CanEdit","0",1);
+
+// 그리드 밸류값 변경
+grid.SetValue(row,"CD","A",1);
+
 // row의 minho라는 속성을 가진 곳에 아이콘을 넣고 이미지는 3번째 인자로 함 네번째 인자는 아이콘 사진의 위치를 말함 1은 row의 왼쪽 2는 오른쪽 
 
 var colIndex=myGrid.ColNames[1].indexOf("SELECT_YN");   // 트리그리드 열의 인덱스만 가져옴 객체는 아님
