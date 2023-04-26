@@ -84,3 +84,6 @@ Grids.OnDataReceive = function(grid,source){} // 트리그리드가 실행될때
 
 Grids.OnAfterValueChanged = function(grid, row, col, val) {} 값이 바뀌었을때 
 
+row = Grids[hi].AddRow(null, null, 1);   // 해당 그리드에 행 
+
+
